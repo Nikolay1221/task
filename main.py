@@ -30,7 +30,7 @@ while True:
         fi = int(input())
         h = 90 - fi
         print("Введите время определяемого пункта")
-        time = input()
+        time = int(input())
         print("Введите Если полдень по гринвичу - 1() -- инче -  решай сам))")
         option = int(input())
         if option == 1:
